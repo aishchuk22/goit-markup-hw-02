@@ -3,3 +3,43 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo-part {
+  color: #2e2f42;
+}
+
+.header-list .nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-list .nav-item:hover,
+.header-list .nav-item:focus {
+  color: #404bbf;
+}
+
+.contact-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+  color: #404bbf;
+}
