@@ -31,9 +31,11 @@ body {
   color: #404bbf;
 }
 
-.contact-info .mail,
-.contact-info .phone-number {
+.contact-info {
   font-style: normal;
+}
+
+.contact-info .contact-info-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -41,12 +43,7 @@ body {
   color: #434455;
 }
 
-.contact-info .mail:hover,
-.contact-info .mail:focus {
-  color: #404bbf;
-}
-
-.contact-info .phone-number:hover,
-.contact-info .phone-number:focus {
+.contact-info .contact-info-item:hover,
+.contact-info .contact-info-item:focus {
   color: #404bbf;
 }
